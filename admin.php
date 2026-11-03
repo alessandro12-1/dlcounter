@@ -17,6 +17,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with Dlcounter_XH.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ * Changed by Alessandro Lin - www.csimple.it - october 2026
  */
 
 use Dlcounter\Dic;
@@ -26,6 +28,13 @@ if (!defined("CMSIMPLE_XH_VERSION")) {
     http_response_code(403);
     exit;
 }
+
+include_once './plugins/Plib_XH/classes/SystemChecker.php';
+include_once './plugins/Plib_XH/classes/View.php';
+include_once './plugins/Plib_XH/classes/Request.php';
+include_once './plugins/Plib_XH/classes/Url.php';
+include_once './plugins/Plib_XH/classes/Response.php';
+include_once './plugins/Plib_XH/classes/Jquery.php';
 
 /**
  * @var string $admin
