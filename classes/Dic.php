@@ -17,6 +17,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with Dlcounter_XH.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ * Changed by Alessandro Lin - october 2026
  */
 
 namespace Dlcounter;
@@ -25,6 +27,8 @@ use Dlcounter\Infra\TsvFile;
 use Plib\Jquery;
 use Plib\SystemChecker;
 use Plib\View;
+
+include_once './plugins/Plib_XH/classes/View.php';
 
 class Dic
 {
