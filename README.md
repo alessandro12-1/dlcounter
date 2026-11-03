@@ -11,7 +11,8 @@ Dlcounter also requires [Plib_XH](https://github.com/cmb69/plib_xh) ≥ 1.2;
 
 Download the ZIP file
 Unzip it
-Rename the main folder from “dlcounter-master” to ‘dlcounter’
+Rename the main folder from “dlcounter-master” to ‘dlcounter’.
+
 Copy “dlcounter” to the ./plugins/ folder
 
 The Rest of the Installation and operating requirements for this plugin are the same as those described in README_XH.md
