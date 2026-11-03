@@ -17,12 +17,18 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with Dlcounter_XH.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ * Changed by Alessandro Lin - www.csimple.it - october 2026
  */
 
 use Dlcounter\Dic;
 use Plib\Request;
 
-const DLCOUNTER_VERSION = "1.0";
+include_once './plugins/Plib_XH/classes/Request.php';
+include_once './plugins/Plib_XH/classes/Url.php';
+include_once './plugins/Plib_XH/classes/Response.php';
+
+const DLCOUNTER_VERSION = "1.1.0";
 
 function dlcounter(string $filename): string
 {
